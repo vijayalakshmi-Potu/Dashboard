@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    background-color:whitesmoke;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url(pictures/prof.jpg);
+}
+  
+
+.sidebar {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url(pictures/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 5px 15px rgba(153, 153, 153, 0.87);
+}
+  
+.bottom-border {
+    border-bottom: 1px groove whitesmoke;
+}
+  
+.sidebar-link {
+    transition: all .3s;
+}
+  
+.sidebar-link:hover {
+    background-color: rgba(68, 68, 68, 0.808);
+    border-radius: 5px;
+}
+  
+.current {
+    background-color: rgb(226, 50, 50);
+    border-radius: 7px;
+    box-shadow: 2px 4px 19px rgb(19, 18, 18);
+    transition: all .3s;
+}
+  
+.current:hover {
+    background-color: red;
+    border-radius: 7px;
+    box-shadow: 2px 5px 15px rgb(8, 8, 8);
+    transform: translateY(-1px);
+}
+  
+.search-input {
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid rgba(100, 99, 99, 0.658);
+    transition: all .4s;
+}
+  
+.search-input:focus {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid rgba(57, 223, 195, 0.781);
+}
+  
+.search-button {
+    border-radius: 10%;
+    padding: 5px 8px;
+    transition: all .3s;
+}
+  
+.search-button:hover {
+    background-color: rgba(245, 245, 245, 0.555);
+    transform: translateY(-1px);
+}
+  
+.icon-parent {
+    position: relative;
+}
+  
+.icon-bullet::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 15px;
+    height: 12px;
+    width: 12px;
+    background-color: rgb(243, 70, 26);
+    border-radius: 50%;
+}
+  
+@media (max-width: 768px) {
+    .sidebar {
+      position: static;
+      height: auto;
+    }
+  
+   .top-navbar {
+      position: static;
+    }
+}
+  
+.card-common{
+    box-shadow: 2px 5px 8px rgb(153, 153, 153);
+    transition: all .3s;
+  }
+  
+.card-common:hover {
+    box-shadow: 2px 3px 10px rgb(153, 153, 153);
+    transform: scale(1.05);
+    color:white;
+    background-color: rgba(215, 233, 233, 0.377);
+  }
+
+
+ 
+.tasks{
+    border-left: 3px solid rgb(235, 97, 33);
+  }  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
